@@ -1,0 +1,49 @@
+html {
+    overflow-y: hidden; 
+  }
+
+
+.container{
+    display: flex ;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+.footer-container{
+    width: calc(100% - 40px);
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    padding-bottom: 35px;
+    font-family: inherit;
+    align-items: flex-end;              
+  
+   
+}
+
+.logo {
+    display: flex;
+   margin: 6px;
+    
+    transition: color 0.5s;
+}
+.logo :hover{
+     color: #49a6e9;
+}
+
+.social-list {
+    width: 135px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./assets/svg/rss.svg);
+    transition: .3s;
+    display: flex;
+    
+  }
+  .social-list:hover{
+    filter: invert(59%) sepia(84%) saturate(665%) hue-rotate(177deg) brightness(90%) contrast(104%);
+    cursor: pointer;
+  
+  }
